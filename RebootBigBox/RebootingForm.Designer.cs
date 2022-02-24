@@ -55,28 +55,28 @@ namespace RebootBigBox
             // 
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(3, 16);
+            this.label1.Location = new System.Drawing.Point(3, 11);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(592, 38);
             this.label1.TabIndex = 2;
-            this.label1.Text = "(Rebooting BigBox for new settings to take effect)";
+            this.label1.Text = "(Rebooting BigBox)";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // labelWait
             // 
-            this.labelWait.AutoSize = true;
             this.labelWait.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelWait.ForeColor = System.Drawing.Color.White;
-            this.labelWait.Location = new System.Drawing.Point(210, 54);
+            this.labelWait.Location = new System.Drawing.Point(3, 156);
             this.labelWait.Name = "labelWait";
-            this.labelWait.Size = new System.Drawing.Size(214, 37);
+            this.labelWait.Size = new System.Drawing.Size(592, 37);
             this.labelWait.TabIndex = 0;
             this.labelWait.Text = "Please Wait...";
+            this.labelWait.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // pictureBox1
             // 
             this.pictureBox1.Image = global::RebootBigBox.Properties.Resources.Omega;
-            this.pictureBox1.Location = new System.Drawing.Point(246, 77);
+            this.pictureBox1.Location = new System.Drawing.Point(246, 51);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(110, 110);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -106,7 +106,6 @@ namespace RebootBigBox
             this.TopMost = true;
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.panelWait.ResumeLayout(false);
-            this.panelWait.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 

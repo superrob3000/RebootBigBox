@@ -24,6 +24,12 @@ namespace RebootBigBox
 
         private void Reboot()
         {
+            string[] args = Environment.GetCommandLineArgs();
+            if((args != null) && (args.Length > 1))
+            {
+                this.label1.Text = args[1];
+            }
+
             //Kill BigBox process
             {
                 Process[] Processes = System.Diagnostics.Process.GetProcesses();
